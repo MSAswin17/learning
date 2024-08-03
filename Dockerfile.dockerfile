@@ -1,3 +1,0 @@
-FROM openjdk17-jdk-slim
-COPY targetfirstfile-0.0.1-SNAPSHOT.jar
-CMD ["java","Dserv=8090","-jar","firstfile-0.0.1-SNAPSHOT.jar"]
